@@ -51,7 +51,7 @@ X_test = sc_X.fit_transform(X_test)
 # print(X_test)
 
 
-neighbor = int(math.sqrt(len(y_train)))
+neighbor = int(math.sqrt(len(y)))
 if neighbor % 2 == 0:
     neighbor = neighbor - 1
 #     print(neighbor)
