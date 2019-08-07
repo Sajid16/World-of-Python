@@ -12,6 +12,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
 from sklearn.metrics import accuracy_score
+from sklearn import neighbors
 
 dataset = pd.read_csv('diabetes.csv')
 # print(len(dataset))
