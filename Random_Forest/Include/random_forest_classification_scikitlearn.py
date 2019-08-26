@@ -16,11 +16,12 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-for i in range(1, 5):
+for i in range(1, 100):
     classifier = RandomForestClassifier(n_estimators=i, random_state=0)
     classifier.fit(X_train, y_train)
     y_pred = classifier.predict(X_test)
 
+    print('the accuracy is for ', i)
     print(confusion_matrix(y_test, y_pred))
     print(classification_report(y_test, y_pred))
     # print(accuracy_score(y_true, y_pred.round(), normalize=False))
