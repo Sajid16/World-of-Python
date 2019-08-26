@@ -11,6 +11,8 @@
   <component name="FavoritesManager">
     <favorites_list name="K_nearest_neighbor" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -82,6 +84,7 @@
       </file>
     </leaf>
   </component>
+>>>>>>> c726547988f94fe104a79ef64e66a381254ab790
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -97,6 +100,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
+=======
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -109,37 +114,18 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
+=======
+>>>>>>> c726547988f94fe104a79ef64e66a381254ab790
+  <component name="ProjectFrameBounds" extendedState="6">
+>>>>>>> e1ebdb24c8348a63b2f83f4b6632b26e77375370
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectId" id="1P0nci0r9JKSCpuZq1wi7JAqdjR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="K_nearest_neighbor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="K_nearest_neighbor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="K_nearest_neighbor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="K_nearest_neighbor" type="462c0819:PsiDirectoryNode" />
-              <item name="Include" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -286,6 +272,8 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
+=======
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
@@ -328,18 +316,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+>>>>>>> c726547988f94fe104a79ef64e66a381254ab790
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -360,6 +344,8 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+=======
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Include/knn_scratch.py" />
     <entry file="file://$PROJECT_DIR$/Include/knn_dynamic_k_value.py" />
@@ -417,4 +403,5 @@
       </provider>
     </entry>
   </component>
+>>>>>>> c726547988f94fe104a79ef64e66a381254ab790
 </project>
