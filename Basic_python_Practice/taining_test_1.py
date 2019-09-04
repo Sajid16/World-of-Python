@@ -16,7 +16,7 @@ if user_input == "yes" or user_input == "y":
         print('the result of the addition is: ', final_result)
     elif operator == '-':
         result = num1 - num2
-        final_result = float(result)
+        final_result = float( result)
         print('the result of the subtraction is: ', final_result)
     elif operator == '*':
         result = num1 * num2
