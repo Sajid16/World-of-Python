@@ -19,29 +19,31 @@ if (number_of_player > 1) and (number_of_player <= 4):
                 point2 = random.randint(1, 7)
                 if point1 > point2:
                     final_point1 = final_point1 + point1
-                    p1 = p1 + 1
+                    p1 += 1
                     print('final_point_1: ', final_point1)
                 elif point2 > point1:
                     final_point2 = final_point2 + point2
-                    p2 = p2 + 1
+                    p2 += 1
                     print('final_point_2: ', final_point2)
                 else:
                     final_point1 = final_point1 + point1
                     final_point2 = final_point2 + point2
-                    d = d + 1
+                    d += 1
                 print(point1)
                 print(point2)
 
             if final_point1 > final_point2:
                 final_point = final_point1
+                winner1 = winner1 + 1
             elif final_point2 > final_point1:
                 final_point = final_point2
+                winner2 = winner2 + 1
             else:
-                final_point = final_point1
+                final_point = final_point
             print(final_point)
             print('-------------------------------')
 
-        if p1 > p2:
+        if winner1 > winner2:
             print(player1_name, ' wins: ', p1, ' rounds')
             print(player2_name, ' wins: ', p2, ' rounds')
             print('Both draws: ', d, ' rounds')
