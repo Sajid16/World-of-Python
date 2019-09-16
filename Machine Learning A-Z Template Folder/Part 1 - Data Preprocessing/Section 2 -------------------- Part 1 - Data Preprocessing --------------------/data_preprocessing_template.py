@@ -42,3 +42,7 @@ from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(missing_values = np.nan, strategy = 'mean')
 ip_mean = imputer.fit(X[:, 1:3])
 X[:, 1:3] = imputer.transform(X[:, 1:3])
+
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+labelencoder_x = LabelEncoder()
+X[:, 0] = labelencoder_x.fit_transform(X[:, 0])
