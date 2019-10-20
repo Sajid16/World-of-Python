@@ -13,6 +13,7 @@ X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 3].values
 
 # there is some mismatch between tutorial and this code in the package section. Imputer package doesn't support anyhow and i have used SimpleImputer in this case.
+# missing data can be replaced by the most frequest value of the column or my the mean value or by the median value
 
 from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(missing_values = np.nan, strategy = 'mean')

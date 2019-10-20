@@ -21,7 +21,7 @@ X_test = sc_X.transform(X_test)
 # implementing linear regression
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
-regressor.fit(X_train, y_train)
+model = regressor.fit(X_train, y_train)
 print('training score: ',regressor.score(X_train, y_train))
 
 
@@ -39,8 +39,25 @@ plt.show()
 
 # Visualising the Test set results
 plt.scatter(X_test, y_test, color = 'red')
+# plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+plt.plot(X_test, y_pred, color = 'blue')
+plt.title('Salary vs Experience (Test set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
+
+print('Another testing is starting from here')
+test_dataset = pd.read_csv('Salary_Data_Test.csv')
+test_dataset.head(5)
+
+y_test_pred = model.predict(test_dataset)
+print('Pure_testing score: ',regressor.score(test_dataset, y_test_pred))
+# Visualising the Test set results
+plt.scatter(test_dataset, y_test_pred, color = 'red')
 plt.plot(X_train, regressor.predict(X_train), color = 'blue')
 plt.title('Salary vs Experience (Test set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
+
+# np.savetxt('Salary_Data_Test.csv', y_test_pred, fmt='%d' , header='Salary')
