@@ -6,8 +6,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 #importing dataset and splitting into train and test set
-dataset = pd.read_csv('D:\World-of-Python\Machine Learning A-Z Template Folder\Part 2 - Regression\Section 4 - Simple Linear Regression\Salary_Data.csv')
-#dataset.head(10)
+dataset = pd.read_csv('Salary_Data.csv')
+dataset.head(10)
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 X_train, X_test, y_train, y_test = train_test_split(X, y,test_size = 0.25, random_state = 0)
